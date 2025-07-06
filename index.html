@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>joao</title>
+    <link href="estilo.css" rel="stylesheet" />
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="tab" role="tablist">
+            <button class="tablink" onclick="mudaTab(event, 'inicio');" title="Página Inicial">Início</button>
+            <button class="tablink" onclick="mudaTab(event, 'sobre');" title="Sobre">Sobre</button>
+            <button class="tablink" onclick="mudaTab(event, 'formacao');" title="Formação">Formação</button>
+            <button class="tablink" onclick="mudaTab(event, 'portifolio');" title="Portfólio">Portfólio</button>
+            <button class="tablink" onclick="mudaTab(event, 'contato');" title="Contato">Contato</button>
+        </nav>
+
+        <main>
+            <header>
+                <h1>Portfólio pessoal</h1>
+            </header>
+
+            <article class="tabcontent" id="inicio">
+                <section>
+                    <h3>Início</h3>
+                    <p>Olá, seja bem vindo ao meu portifólio, na parte superior você poderá navegar pelos menus e conhecer um pouco mais sobre mim.</p>
+                </section>
+            </article>
+
+            <article class="tabcontent" id="sobre">
+                <section>
+                    <h3>Sobre mim</h3>
+                    <p>Meu nome é João Pedro sou academico na uninter atualmente, meu RU é 5289833, atualmente trabalho no mercado financeiro porém amo tecnologia, já trabalhei 10 anos com a parte de hardware e agora estou aprendendo a parte de software. Nos tempos vagos gosto de jogar.</p>
+                    <h4>LISTA DE JOGOS QUE EU GOSTO DE JOGAR:</h4>
+                    <li>CS2</li>
+                    <li>Mario 3D land</li>
+                    <li>GTA V</li>
+                    <li>Mario KART</li>
+                    <li>LEGO Star Wars</li>
+                    <li>Mario 3D land</li>
+                    <li>Zelda</li>
+                    <li>HALO</li>
+                </section>
+            </article>
+
+            <article class="tabcontent" id="formacao">
+                <section>
+                    <h3>Formação</h3>
+                    <p>Atualmente não sou formado, porem faço duas faculdades, sendo elas:</p>
+                    <li>Análise e desenvolvimento de sistema - UNINTER</li>
+                    <li>Ciência da Computação - IFG</li>
+
+                </section>
+            </article>
+
+            <article class="tabcontent" id="portifolio">
+                <section>
+                    <h3>Portfólio</h3>
+                    <p>Infelizmente não tenho nenhum trabalho postado em meu github porem segue a baixo o link para meu perfil.</p>
+                    <p><a class="link" href="https://github.com/joaopeed" target="_blank">GitHub</a></p>
+                </section>
+            </article>
+
+            <article class="tabcontent" id="contato">
+                <section>
+                    <h3>Contato</h3>
+                    <p>Por razões pessoais não irei compartilhar meus dados aqui, agradeço pela compreensão!</p>
+                    <p>Email: joao@example.com</p>
+                    <p>Telefone: (99) 99999-9999</p>
+                </section>
+            </article>
+        </main>
+    </div>
+</body>
+</html>

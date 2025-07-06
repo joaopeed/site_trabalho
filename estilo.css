@@ -1,0 +1,115 @@
+html {
+    font-family: Verdana, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Navegação */
+.tab {
+    overflow: hidden;
+    border: 1px solid green;
+    background-color: gray;
+}
+
+.tab button {
+    background-color: inherit;
+    text-transform: uppercase;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover,
+.tab button.active {
+    background-color: green;
+    font-weight: bold;
+    color: black;
+}
+
+.tab button:hover {
+    font-style: italic;
+}
+
+/* Conteúdo das abas */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+header > h1 {
+    line-height: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+header > h2 {
+    line-height: 1;
+    font-size: 2em;
+    font-style: italic;
+    font-variant-caps: all-small-caps;
+}
+
+article {
+    margin: 2rem;
+}
+
+main > article > section > h3,
+h4 {
+    font-variant: small-caps;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main > article > section > h4 {
+    line-height: 0;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+.link {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: solid !important;
+}
+
+form {
+    color: green;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: gray;
+}
+
+form > div > input,
+textarea {
+    width: 100%;
+}
+
+form > div > button {
+    margin-top: 10px;
+    background-color: green;
+    border: 0;
+    border-radius: 8px;
+    color: grey;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
